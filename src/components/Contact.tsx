@@ -1,10 +1,9 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useState } from "react";
-import { GitHub, Linkedin, Mail, MapPin, Phone } from "lucide-react";
+import { Github, Linkedin, Mail, MapPin, Phone } from "lucide-react";
 
 export const Contact = () => {
   const [formState, setFormState] = useState({
@@ -115,7 +114,7 @@ export const Contact = () => {
                     rel="noopener noreferrer"
                     className="flex items-center justify-center p-4 bg-secondary/50 dark:bg-secondary/20 rounded-lg hover:bg-primary/10 transition-colors"
                   >
-                    <GitHub className="w-6 h-6 mr-2" />
+                    <Github className="w-6 h-6 mr-2" />
                     <span>GitHub</span>
                   </a>
                   <a 

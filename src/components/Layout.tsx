@@ -1,6 +1,6 @@
 
 import { ReactNode, useState, useEffect } from "react";
-import { GitHub, Linkedin, Menu, X } from "lucide-react";
+import { Github, Linkedin, Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
 import { ThemeToggle } from "./ThemeToggle";
 
@@ -97,7 +97,7 @@ export const Layout = ({ children }: LayoutProps) => {
               className="text-foreground/70 hover:text-primary transition-colors"
               aria-label="GitHub"
             >
-              <GitHub size={20} />
+              <Github size={20} />
             </a>
             <a 
               href="https://www.linkedin.com/in/jeevesh-nandan-upadhyay-0873b3204" 
@@ -145,7 +145,7 @@ export const Layout = ({ children }: LayoutProps) => {
                   rel="noopener noreferrer"
                   className="text-foreground/70 hover:text-primary transition-colors"
                 >
-                  <GitHub size={20} />
+                  <Github size={20} />
                 </a>
                 <a 
                   href="https://www.linkedin.com/in/jeevesh-nandan-upadhyay-0873b3204" 
