@@ -18,6 +18,9 @@ const navItems: NavItem[] = [
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
   { label: "Education", href: "#education" },
+  { label: "Projects", href: "#projects" },
+  { label: "Achievements", href: "#achievements" },
+  { label: "Leadership", href: "#extracurricular" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -177,10 +180,28 @@ export const Layout = ({ children }: LayoutProps) => {
             </div>
             <div className="flex space-x-4">
               <a 
+                href="https://github.com/jeevesh101"
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-foreground/70 hover:text-primary transition-colors"
+              >
+                GitHub
+              </a>
+              <span className="text-foreground/50">|</span>
+              <a 
+                href="https://www.linkedin.com/in/jeevesh-nandan-upadhyay-0873b3204"
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-foreground/70 hover:text-primary transition-colors"
+              >
+                LinkedIn
+              </a>
+              <span className="text-foreground/50">|</span>
+              <a 
                 href="mailto:jeeveshnandan.upadhyay@gmail.com"
                 className="text-foreground/70 hover:text-primary transition-colors"
               >
-                jeeveshnandan.upadhyay@gmail.com
+                Email
               </a>
             </div>
           </div>
